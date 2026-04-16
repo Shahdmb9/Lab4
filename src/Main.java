@@ -4,9 +4,9 @@ void main() {
 
     Circle circle=new Circle(3);
     System.out.println("====Testing Circle====");
-    System.out.println("the area of circle of radius 3 is");
+    System.out.println("the area of circle of radius:"+circle.getRadius()+" is");
     System.out.printf("%.2f",circle.calculateArea());
-    System.out.println("\nthe Circumference of circle of radius 3");
+    System.out.println("\nthe Circumference of circle of radius:"+circle.getRadius());
     System.out.printf("%.2f",circle.calculateCircumference());
 
     System.out.println("\n\n====Testing Rectangle====");
