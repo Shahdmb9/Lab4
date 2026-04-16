@@ -18,7 +18,7 @@ void main() {
 
     System.out.println("\n====Testing Triangle====");
     Triangle triangle=new Triangle(5,5);
-    System.out.println("the area of rectangle of height:"+triangle.getHeight()+" and base:"+triangle.getBase());
+    System.out.println("the area of triangle of height:"+triangle.getHeight()+" and base:"+triangle.getBase());
     System.out.println(triangle.calculateArea());
     System.out.println("the perimeter of height:"+triangle.getHeight()+" and base:"+triangle.getBase());
     System.out.println(triangle.calculateCircumference());
